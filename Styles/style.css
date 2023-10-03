@@ -368,7 +368,9 @@ margin-bottom: 100px;
     .portafolio-info{
         display: flex;
         width: 375px;
+        background-color: rebeccapurple;
         flex-direction: column;
+        justify-content: space-between;
     }
     .contact-general{
         width: 375px;
