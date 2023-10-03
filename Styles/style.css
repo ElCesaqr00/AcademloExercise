@@ -286,28 +286,19 @@ margin-bottom: 100px;
     }
     body{
         display: flex;
-        width: 375px;
-    }
-    main{
-        margin-left: auto;
-        margin-right: auto;
-        width: 375px;
     }
     .button-responsive-mobile{
         opacity: 100;
         float: right;
-    }
-    .head-info-text{
-        width: 375px;
-    }
-    .texto{
-        width: 375px;
     }
     .nav-bar-links{
         margin-top: 0; 
         opacity: 0;
 }
     .head-info{
+        width: 375px;
+    }
+    .head-info-text{
         width: 375px;
     }
     .img-cc{
@@ -317,8 +308,7 @@ margin-bottom: 100px;
         
     }
     .photo-profile{
-        display: flex;
-        justify-content: center;
+        width: 375px;
     }  
     .icon-social{
         justify-content: center;
@@ -331,14 +321,12 @@ margin-bottom: 100px;
         width: 375px;
     }
     .body-principal-description h3{
-        width: 375px;
         margin-left: 10px;
     }
     .body-principal-title{
         display: flex;
         align-items: flex-start;
         width: 375px;
-    
     }
     .habilities{
         margin-top: 50px;
@@ -350,10 +338,9 @@ margin-bottom: 100px;
         display: flex;
         background-color: var(--color-yellow);
         height: auto;
-        width: 100%;
         justify-content: center;
         align-items: center;
-        width: 500px;
+        width: fit-content;
 
     }
     .habilities-icon{
@@ -368,7 +355,6 @@ margin-bottom: 100px;
     .portafolio-info{
         display: flex;
         width: 375px;
-        background-color: rebeccapurple;
         flex-direction: column;
         justify-content: space-between;
     }
